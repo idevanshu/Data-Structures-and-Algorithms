@@ -32,7 +32,7 @@ int indInsertion(int arr[], int size, int element, int capacity, int index)
 
 int main()
 {
-    int arr[100] = {1, 27, 31, 24, 15, 6};
+    int arr[10] = {1, 27, 31, 24, 15, 6};
     int size = 6, element = 21, index = 3;
     display(arr, size);
 
@@ -45,6 +45,5 @@ int main()
     {
         printf("Insertion failed!!!");
     }
-
     return 0;
 }
