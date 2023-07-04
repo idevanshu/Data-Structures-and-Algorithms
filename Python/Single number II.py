@@ -8,4 +8,3 @@ def singleNumber(nums):
     return nums[-1]
     
 print(singleNumber([0, 1, 0, 1, 0, 1, 99])) 
-
