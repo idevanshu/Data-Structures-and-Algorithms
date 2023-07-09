@@ -1,5 +1,6 @@
 from collections import Counter
 import itertools
+
 def largestVariance(s):
     count = Counter(s)
 
