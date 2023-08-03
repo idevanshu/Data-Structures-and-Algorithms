@@ -3,4 +3,4 @@ def numberOfEmployeesWhoMetTarget(hours,target):
     for i in hours:
         if i >= target:
             count += 1
-        return count
+    return count
